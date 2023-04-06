@@ -1,10 +1,14 @@
 <?php
   //Get the user input
-  $temp = floatval($_POST["fahrenheit"]);
+  $radiusOfSemicircle = floatval($_POST["radius"]);
 
-  //Calculate the volume
-  $celsius = 5/9* ($temp - 32);
-  $roundedCelsius = round($celsius, 1);
+  //Calculate the area
+  $area = 1 / 2 * pi() * radiusOfSemicircle ** 2;
+  $roundedArea = round($area, 2);
+
+//Calculate the perimeter 
+
+
 ?>
 
 <h3>Results:</h3>
