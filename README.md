@@ -1,1 +1,2 @@
 # Assign-03-PHP-area-perimeter-semicircle
+[![GitHub's Super Linter](https://github.com/ICS20-Programming-LilyC/Assign-03-PHP-area-perimeter-semicircle/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS20-Programming-LilyC/Assign-03-PHP-area-perimeter-semicircle/actions)
