@@ -6,35 +6,35 @@
 
 body {
   background-color: lightsteelblue;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  font-weight: 900;
 }
 
 h1 {
-  background-color: rgb(193 205 249);
-  color: hsl(231deg 60% 61%);
+  background-color: rgb(124 143 182);
+  color: hsl(235deg 21% 21%);
   padding: 40px;
   text-align: center;
-}
-
-p {
-  font-family: Arial, sans-serif;
-  color: #9a031e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
-  font-family: Arial, sans-serif;
-  color: #2eb1cc;
-  padding: 20px;
+  color: #ef233c;
 }
 
 form {
-  font-family: Arial, sans-serif;
-  color: #9a031e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #edf2f4;
   padding: 20px;
 }
 
-#result {
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #edf2f4;
+  padding: 20px;
+}
+
+#display-result {
+  background-color: #7c8fb6;
 }
