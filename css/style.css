@@ -17,6 +17,10 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h6 {
+  color: #7c8fb6; 
+}
+
 h3 {
   color: #ef233c;
 }

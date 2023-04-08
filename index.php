@@ -29,13 +29,31 @@
   </head>
   <body>
 
-    <!--Text-->
+    <!--Webpage header-->
     <h1>Calculating the Area and Perimeter of a Semicircle in PHP</h1>
+    <!--Webpage text-->
     <p>Welcome! This webpage calculates the area and perimeter of a semicircle. If you're unsure on how to calculate the area or perimeter of a semicircle, then you can just enter your values below and my webpage will calculate it for you! In the image below you can also see the formula for this calculation.</p>
 
     <!--Image-->
     <center>
       <img src="./images/formulaOfAreaAndPreimeterSemicircle.png" width="300" length="300" alt="Formula for the area and perimeter of semicircle">
+    </center>
+
+    <!--Question for user-->
+    <center>
+      <h6>Do you enjoy calculating the area and perimeter of different shapes?</h6>
+
+    <!--MDl radio button (on)-->
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+      <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+      <span class="mdl-radio__label">Yes</span>
+    </label>
+
+    <!--MDL radio button (off)-->
+    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+      <span class="mdl-radio__label">No</span>
+    </label>
     </center>
 
     <!--Form for user input-->
