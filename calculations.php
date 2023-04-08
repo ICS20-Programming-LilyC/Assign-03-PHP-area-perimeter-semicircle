@@ -12,5 +12,5 @@
   $perimeterRounded = round($perimeter, 2);
 ?>
 
-<h3>Results:</h3>
+<h3>Calculation results:</h3>
 The area of the semicircle is <?php echo "$areaRounded" . " cm²"; ?> and the perimeter would be <?php echo "$perimeterRounded". " cm"; ?>
