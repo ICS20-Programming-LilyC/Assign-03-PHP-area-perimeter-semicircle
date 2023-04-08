@@ -3,13 +3,14 @@
   $radiusOfSemicircle = floatval($_POST["radius"]);
 
   //Calculate the area
-  $area = 1 / 2 * pi() * radiusOfSemicircle ** 2;
-  $roundedArea = round($area, 2);
+  $area = 1 / 2 * pi() * $radiusOfSemicircle ** 2;
+  $areaRounded = round($area, 2);
 
-//Calculate the perimeter 
-
-
+  //Calculate the perimeter 
+  $diameter = $radiusOfSemicircle * 2;
+  $perimeter = pi() * $radiusOfSemicircle + $diameter;
+  $perimeterRounded = round($perimeter, 2);
 ?>
 
 <h3>Results:</h3>
-The converted temperature from fahrenheit to celsius is <?php echo "$roundedCelsius" ?> C°.
+The area of the semicircle is <?php echo "$areaRounded" . " cm²"; ?> and the perimeter would be <?php echo "$perimeterRounded". " cm"; ?>
