@@ -13,4 +13,7 @@
 ?>
 
 <h3>Calculation results:</h3>
-The area of the semicircle is <?php echo "$areaRounded" . " cm²" ?> and the perimeter would be <?php echo "$perimeterRounded". " cm"?>
+The area of the semicircle is 
+<?php echo "$areaRounded" . " cm²" ?> 
+and the perimeter would be 
+<?php echo "$perimeterRounded". " cm" ?>
