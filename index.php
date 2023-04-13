@@ -9,11 +9,12 @@
     <meta name="author" content="Lily Carroll">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index2/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index2/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index2/favicon-16x16.png">
-    <link rel="manifest" href="./fav_index2/site.webmanifest">
+        <!--Favicon-->
+    <link rel="apple-touch-icon.png" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest.png">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!--Padding-->
     <main style="padding-left: 20px; padding-right: 20px;">
