@@ -40,8 +40,8 @@
     <!--Question for user-->
     <div style="text-align:center;">
       <h5>Do you enjoy calculating the area and perimeter of different shapes?</h5>
-  
-      <!--MDl radio button (on)-->
+
+    <!--MDl radio button (on)-->
       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
         <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
         <span class="mdl-radio__label">Yes</span>
@@ -61,7 +61,7 @@
           <input type="number" name="radius" placeholder="Input your radius here...">
       <br>
       <br>
-
+          
     <!--Accent-colored raised button with ripple-->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
             Calculate
@@ -82,5 +82,6 @@
 
     <!--MDL Slider with Starting Value-->
       <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+    </div>
   </body>
 </html>

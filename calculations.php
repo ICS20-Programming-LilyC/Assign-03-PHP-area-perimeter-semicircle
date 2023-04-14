@@ -1,5 +1,5 @@
 <?php
-  // Get the user input
+  // Get the user input radius
   $radiusOfSemicircle = floatval($_POST["radius"]);
 
   // Calculate the area
@@ -16,4 +16,4 @@
 The area of the semicircle is 
 <?php echo "$areaRounded" . " cm²" ?> 
 and the perimeter would be 
-<?php echo "$perimeterRounded". " cm" ?>
+<?php echo "$perimeterRounded" . " cm" ?>
